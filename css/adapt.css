@@ -1,0 +1,135 @@
+@media only screen and (max-width: 767px) {
+
+    .logo img {
+        width: 80px; 
+    }
+    .menu a {
+        display: block; 
+        margin-bottom: 10px;
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .menu {
+        flex-direction: column;
+        margin-top: 0;
+        padding: 10px; 
+    }
+
+    .names1,
+    .names2,
+    .names3,
+    .names4 {
+        margin: 10px 0; 
+        text-align: center; 
+        order: initial; 
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider {
+        max-width: 90%; 
+        height: 300px; 
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .hh, .tez, .bnt1, .hhh, .tezz, .bnt2 {
+        margin-left: 30px;
+    }
+    
+    .hh, .tez, .hhh, .tezz {
+        font-size: 24px;
+    }
+    
+    .bnt1, .bnt2 {
+        padding: 15px 30px;
+        font-size: 14px;
+        margin-left: 30px;
+    }
+    
+    .gif {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0;
+        position: relative;
+    }
+    
+    .imga {
+        max-width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hh, .tez, .bnt1, .hhh, .tezz, .bnt2 {
+        margin-left: 15px;
+    }
+    
+    .hh, .tez, .hhh, .tezz {
+        font-size: 18px;
+    }
+    
+    .bnt1, .bnt2 {
+        padding: 10px 20px;
+        font-size: 12px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    
+    .pers1, .pers2, .pers3, .pers4, .pers5, .pers6, .pers7, .pers8 {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .rr1, .rr2, .rr3, .rr4, .rr5, .rr6, .rr7, .rr8 {
+        font-size: 16px;
+    }
+
+    .pp1, .pp2, .pp5, .pp6, .pp7, .pp8 {
+        font-size: 16px;
+        margin-top: -40px;
+        margin-left: 200px;
+    }
+}
+
+
+@media screen and (min-width: 769px) {
+    
+    .pers1 {
+        margin-top: 420px;
+        margin-left: 50px;
+    }
+
+    .rr1 {
+        font-size: 22px;
+    }
+
+    .pp1 {
+        margin-top: -71px;
+        margin-left: 350px;
+        font-size: 22px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .yavr {
+        font-size: 60px;
+        margin-top: 100px;
+    }
+
+    .bnt4 {
+        padding: 15px 40px;
+        font-size: 16px;
+        margin-left: 0; 
+        margin-top: 20px; 
+    }
+}

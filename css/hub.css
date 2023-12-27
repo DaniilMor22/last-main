@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center; /* Выравниваем элементы по центру */
+    align-items: center;
+    margin-top: 55px;
+    padding: 0 20px;
+}
+
+.names1,
+.names2,
+.names3,
+.names4 {
+    font-size: 30px;
+    color: black;
+    transition: color 0.3s ease;
+    margin: 0 20px; /* Добавляем отступы между ссылками */
+}
+
+/* При ховере цвет ссылки будет меняться */
+.menu a:hover h6 {
+    color: yellow;
+}
+
+
+.logo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+}
+
+#logs{
+    width: 120px;
+    transition: 0.3s;
+}
+
+#logs:hover{
+    filter: hue-rotate(60deg);
+}
+
+.slider {
+    margin: 50px auto; /* Центрируем слайдер по горизонтали и добавляем отступы сверху и снизу */
+    position: relative;
+    overflow: hidden;
+    max-width: 90%; /* Максимальная ширина для контента слайдера */
+    height: 60vh; /* Используем высоту окна просмотра для слайдера (60% высоты экрана) */
+    text-align: center;
+}
+
+.slide {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%; /* Растягиваем слайды на всю ширину */
+    height: 100%; /* Растягиваем слайды на всю высоту */
+    object-fit: cover; /* Подгоняем изображение под размер слайда */
+}
+
+.slide:first-child {
+    opacity: 1;
+}
+
+.dots-wreapper {
+    position: absolute;
+    bottom: 10px;
+    left: 50%; /* Выравниваем точки пагинации по горизонтали */
+    transform: translateX(-50%);
+}
+
+.dots {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: #333;
+}
+
+
+.hh{
+    margin-top: -550px;
+    margin-left: 1100px;
+    font-size: 45px;
+}
+
+.tez{
+    margin-left: 1100px;
+    font-size: 30px;
+}
+
+.bnt1{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    border: none;
+    margin-left: 1100px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.bnt1:hover{
+    background-color: #ffcc00;
+}
+
+.hhh{
+    margin-top: 400px;
+    font-size: 45px;
+    margin-left: 50px;
+}
+
+.tezz{
+    margin-top: 40px;
+    font-size: 30px; 
+    margin-left: 50px;   
+}
+
+.bnt2{
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    border: none;
+    margin-left: 50px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.bnt2:hover{
+    background-color: #ffcc00;
+}
+
+
+.gif{
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 500px;
+}
+
+.imga{
+    width: 900px;
+    height: 600px;
+    margin-top: 220px;
+}
+
+
+
+.yavr {
+    font-size: 100px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Стили для кнопки */
+.bnt4 {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-left: 750px;
+}
+
+
+
+
+.tavar {
+    color: black;
+    position: absolute;
+    font-size: 55px;
+    margin-top: 285px;
+    margin-left: 65px;
+}
+
+
+.pers1{
+    margin-top: 420px;
+    margin-left: 50px;
+}
+
+.rr1{
+    font-size: 22px;
+}
+
+.pp1{
+    margin-top: -71px;
+    margin-left: 350px;
+    font-size: 22px;
+}
+
+.pers2{
+    margin-top: -550px;
+    margin-left: 650px;
+}
+
+.rr2{
+    font-size: 22px;
+}
+
+.pp2{
+    margin-top: -71px;
+    margin-left: 350px;
+    font-size: 22px;
+}
+
+.pers3{
+    margin-top: -554px;
+    margin-left: 1250px;
+}
+
+.rr3{
+    font-size: 22px;
+}
+
+.pers4{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.rr4{
+    font-size: 22px;
+}
+
+.pers5{
+    margin-top: -450px;
+    margin-left: 650px;
+}
+
+.rr5{
+    font-size: 22px;
+}
+
+.pp5{
+    font-size: 22px;
+    margin-top: -80px;
+    margin-left: 350px;
+}
+
+.pers6{
+    margin-top: -550px;
+    margin-left: 1250px;
+}
+
+.rr6{
+    font-size: 22px;
+}
+
+.pp6{
+    font-size: 22px;
+    margin-top: -80px;
+    margin-left: 350px;
+}
+
+.pers7{
+    margin-top: 120px;
+}
+
+.rr7{
+    font-size: 22px;
+}
+
+.pp7{
+    font-size: 22px;
+    margin-top: -60px;
+    margin-left: 350px;
+}
+
+.pers8{
+    margin-top: -550px;
+    margin-left: 650px;
+}
+
+.rr8{
+    font-size: 22px;
+}
+
+.pp8{
+    font-size: 22px;
+    margin-top: -80px;
+    margin-left: 350px;
+}
