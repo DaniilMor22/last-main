@@ -49,7 +49,7 @@ a{
 }
 
 .slider {
-    margin: 50px auto; /* Центрируем слайдер по горизонтали и добавляем отступы сверху и снизу */
+    margin: 60px auto; /* Центрируем слайдер по горизонтали и добавляем отступы сверху и снизу */
     position: relative;
     overflow: hidden;
     max-width: 90%; /* Максимальная ширина для контента слайдера */
@@ -175,7 +175,7 @@ a{
 
 .yavr {
     font-size: 100px;
-    margin-top: 250px;
+    margin-top: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +192,7 @@ a{
     border: none;
     transition: background-color 0.3s ease;
     cursor: pointer;
-    margin-left: 750px;
+    margin-left: 810px;
 }
 
 
@@ -238,7 +238,7 @@ a{
 }
 
 .pers3{
-    margin-top: -554px;
+    margin-top: -454px;
     margin-left: 1250px;
 }
 
@@ -247,7 +247,7 @@ a{
 }
 
 .pers4{
-    margin-top: 25px;
+    margin-top: 150px;
     margin-left: 50px;
 }
 
@@ -256,8 +256,8 @@ a{
 }
 
 .pers5{
-    margin-top: -450px;
-    margin-left: 650px;
+    margin-top: -550px;
+    margin-left: 450px;
 }
 
 .rr5{
